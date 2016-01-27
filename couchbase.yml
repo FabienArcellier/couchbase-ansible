@@ -1,0 +1,10 @@
+---
+- hosts: all
+  sudo: no
+  vars:
+  tasks:
+
+  roles:
+    - ansible-couchbase-server
+
+  handlers:
